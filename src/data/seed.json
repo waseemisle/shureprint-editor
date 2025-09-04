@@ -1,0 +1,21 @@
+{
+  "products": [
+    { "id": "p1", "name": "Kraft Grocery Bag", "category": "Bags" },
+    { "id": "p2", "name": "Hot Cup 12oz", "category": "Cups" },
+    { "id": "p3", "name": "Matchbook", "category": "Print" }
+  ],
+  "variants": [
+    { "id": "v1", "productId": "p1", "sku": "BAG-#4-KRAFT", "options": {"size":"#4","material":"Kraft","handle":"Yes"}, "active": true },
+    { "id": "v2", "productId": "p1", "sku": "BAG-#8-KRAFT", "options": {"size":"#8","material":"Kraft","handle":"Yes"}, "active": true },
+    { "id": "v3", "productId": "p2", "sku": "CUP-12OZ-WHITE", "options": {"size":"12 oz","color":"White"}, "active": true },
+    { "id": "v4", "productId": "p2", "sku": "CUP-12OZ-BLACK-LID", "options": {"size":"12 oz","color":"Black","lid":"Included"}, "active": true },
+    { "id": "v5", "productId": "p3", "sku": "MATCH-INSIDE-3C", "options": {"inside_print_colors":"3","style":"Standard"}, "active": true }
+  ],
+  "priceTiers": [
+    { "id":"t1","variantId":"v1","minQty":1000,"price":0.22 },
+    { "id":"t2","variantId":"v1","minQty":5000,"price":0.18 },
+    { "id":"t3","variantId":"v1","minQty":10000,"price":0.15 },
+    { "id":"t4","variantId":"v3","minQty":1000,"price":0.09 },
+    { "id":"t5","variantId":"v3","minQty":5000,"price":0.07 }
+  ]
+}
