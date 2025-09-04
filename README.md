@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Shureprint – Mini Price Tier Editor
 
 A full-stack web application for managing product variants and their tiered pricing. Built with Next.js, TypeScript, and Tailwind CSS.
